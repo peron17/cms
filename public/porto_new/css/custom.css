@@ -1,0 +1,79 @@
+/* Add here all your CSS customizations */
+a {
+    color: #0088CC;
+}
+a:hover {
+    color: #0099e6;
+}
+a, a:hover, a:focus {
+    color: #CCC;
+}
+
+.badge-primary {
+    background: #0088CC;
+    color: #FFF;
+}
+.page-header h2 {
+    color: #FFF;
+    border-bottom: 4px solid #0088CC;
+    box-sizing: content-box;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 50px;
+    margin: 0 0 0 -1px;
+    padding: 0 22px 0 20px;
+}
+.progress .progress-bar-primary {
+    background-color: #0088CC;
+}
+.sidebar-left .sidebar-header .sidebar-toggle i {
+    color: #0088CC;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    line-height: 50px;
+    transition: all 0.15s ease-in-out;
+}
+html .bg-secondary, html .background-color-secondary {
+    background-color: #E36159 !important;
+}
+html .bg-tertiary, html .background-color-tertiary {
+    background-color: #2BAAB1 !important;
+}
+html .bg-quaternary, html .background-color-quaternary {
+    background-color: #383f48 !important;
+}
+.timeline.timeline-simple .tm-body .tm-items > li:before {
+    background: #0088CC;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #0088cc;
+}
+html .btn-primary {
+    background-color: #0088CC;
+    border-color: #0088CC #0088CC #006699;
+    color: #FFF;
+}
+
+html .card-featured-primary {
+    border-color: #0088CC;
+}
+html .card-featured-secondary {
+    border-color: #E36159;
+}
+html .card-featured-tertiary {
+    border-color: #2BAAB1;
+}
+html .card-featured-quaternary {
+    border-color: #383f48;
+}
+
+.notifications .notification-menu .notification-title {
+    background: #0088CC;
+}
+
+ul.nav-main > li.nav-active > a {
+    box-shadow: 2px 0 0 #0088cc inset;
+}
