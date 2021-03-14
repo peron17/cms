@@ -9,6 +9,13 @@
 @endsection
 
 @section('content')
+<div class="col p-0 mb-3 text-right">
+    @php
+        renderActionMenu([
+            'create' => ['url'=> route('register')]
+        ]);
+    @endphp
+</div>
 <section class="card">
     <header class="card-header">
         <h2 class="card-title">Card</h2>
