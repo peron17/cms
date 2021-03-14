@@ -77,3 +77,11 @@ html .card-featured-quaternary {
 ul.nav-main > li.nav-active > a {
     box-shadow: 2px 0 0 #0088cc inset;
 }
+
+.page-header .breadcrumbs {
+    display: inline-block;
+    font-size: 0;
+    line-height: 50px;
+    margin: 0 40px 0 0;
+    padding: 0;
+}
