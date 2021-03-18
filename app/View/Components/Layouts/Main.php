@@ -8,14 +8,17 @@ use Illuminate\View\Component;
 class Main extends Component
 {
     public $title;
+
+    public $pageTitle;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($title)
+    public function __construct($title, $pageTitle)
     {
         $this->title = getenv('APP_NAME') . ' | ' . $title;
+        $this->pageTitle = $pageTitle;
     }
 
     /**

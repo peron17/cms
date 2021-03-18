@@ -1,9 +1,9 @@
-@props(['title','page_title'])
+@props(['title','pageTitle'])
 
 <x-layouts._base :title="$title">
     <section role="main" class="content-body">
         <header class="page-header">
-            <h2>{{ $page_title ?? '' }}</h2>
+            <h2>{{ $pageTitle ?? '' }}</h2>
             <div class="right-wrapper text-right">
                 <ol class="breadcrumbs">
                     <li>
