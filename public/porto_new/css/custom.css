@@ -77,3 +77,45 @@ html .card-featured-quaternary {
 ul.nav-main > li.nav-active > a {
     box-shadow: 2px 0 0 #0088cc inset;
 }
+
+.page-header .breadcrumbs {
+    display: inline-block;
+    font-size: 0;
+    line-height: 50px;
+    margin: 0 40px 0 0;
+    padding: 0;
+}
+
+.content-body {
+    display: table-cell;
+    padding: 30px 40px 40px 40px;
+    position: relative;
+    vertical-align: top;
+}
+
+html .btn-primary:hover, html .btn-primary.hover {
+    background-color: #00a1f2;
+    border-color: #00aaff #00aaff #0088CC;
+    color: #FFF;
+}
+
+html .btn-danger:hover, html .btn-danger.hover {
+    background-color: #d9514d;
+    border-color: #db5b57 #db5b57 #d2322d;
+    color: #FFF;
+}
+.btn-warning:hover, .btn-warning.hover {
+    background-color: #f0ac4b;
+    border-color: #f1b257 #f1b257 #ed9c28;
+    color: #FFF;
+}
+.btn-info:hover, .btn-info.hover {
+    background-color: #7bcce4;
+    border-color: #85d0e7 #85d0e7 #5bc0de;
+    color: #FFF;
+}
+.btn-success:hover, .btn-success.hover {
+    background-color: #5ab75a;
+    border-color: #63bb63 #63bb63 #47a447;
+    color: #FFF;
+}
